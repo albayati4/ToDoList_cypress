@@ -39,7 +39,7 @@ class TODOList {
    * @returns {click}
    */
   ClickOnRemoveCompletedTasksButton() {
-    return this.getRemoveCompletedTasksButton().click();
+    this.getRemoveCompletedTasksButton().click();
   }
 }
 

@@ -36,12 +36,12 @@
 
   ```JavaScript
   // Methods
+
   /**
    * This function clicks on Remove Completed Tasks Button
-   * @returns {click}
    */
   ClickOnRemoveCompletedTasksButton() {
-    return this.getRemoveCompletedTasksButton().click();
+    this.getRemoveCompletedTasksButton().click();
   }
   ```
 

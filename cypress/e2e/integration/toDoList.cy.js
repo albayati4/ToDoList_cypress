@@ -66,8 +66,8 @@ describe("Cypress project 04 - To Do List Form", () => {
     toDoList.getToDoTasks().each(($task) => {
       cy.wrap($task).realClick();
     });
-    // toDoList.ClickOnRemoveCompletedTasksButton();
-    // toDoList.getToDoTasks().should("have.text", "No tasks found!");
+    toDoList.ClickOnRemoveCompletedTasksButton();
+    toDoList.getToDoTasks().should("have.text", "No tasks found!");
   });
 
   it("Test Case 04 - Search and Filter Functionality in todo App", () => {
